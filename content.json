@@ -1,0 +1,270 @@
+{
+  "hero": {
+    "badge": "Cloud, Security & AI Engineer",
+    "title": "I design and build secure cloud, backend, and AI systems for modern products.",
+    "subtitle": "Architecting AWS infrastructure and application systems for scalability, security, and compliance.",
+    "socialLinks": {
+      "github": "https://github.com/Echo-Peak",
+      "linkedin": "https://www.linkedin.com/in/michael-wheeler-6722b112b/"
+    },
+    "primaryCta": {
+      "label": "Start a project",
+      "url": "/contact"
+    },
+    "secondaryCtas": [
+      {
+        "label": "View Projects",
+        "url": "#projects"
+      }
+    ],
+    "stats": [
+      { "label": "Desktop & Backend", "value": "8+ yrs" },
+      { "label": "DevSecOps & AI Engineering", "value": "Recent focus" }
+    ]
+  },
+  "skills": [
+    {
+      "category": "AI Engineering",
+      "items": [
+        "AWS Bedrock",
+        "RAG Systems",
+        "LLM Agent Integration",
+        "Prompt Engineering",
+        "AI Evaluations & Guardrails",
+        "Spec-Driven Development"
+      ]
+    },
+    {
+      "category": "Cloud & Platform",
+      "items": [
+        "AWS (ECS, Lambda, API Gateway, S3, ALB, Cognito, Step Functions, SQS/SNS)",
+        "Infrastructure as Code",
+        "Docker",
+        "IAM",
+        "VPC Networking",
+        "WAF"
+      ]
+    },
+    {
+      "category": "Security & Compliance",
+      "items": [
+        "DevSecOps",
+        "Secure SDLC",
+        "Least-Privilege Access",
+        "Threat Modeling",
+        "Governance & Risk Controls",
+        "Compliance Alignment"
+      ]
+    },
+    {
+      "category": "Backend & APIs",
+      "items": [
+        "TypeScript",
+        "Node.js",
+        "C# / .NET",
+        "REST APIs",
+        "WebSocket Services",
+        "Distributed Systems"
+      ]
+    },
+    {
+      "category": "Data",
+      "items": [
+        "PostgreSQL",
+        "DynamoDB",
+        "SQLite",
+        "S3",
+        "Vector Retrieval Patterns"
+      ]
+    },
+    {
+      "category": "Delivery",
+      "items": [
+        "CI/CD",
+        "GitHub Actions",
+        "Observability",
+        "Automated Testing",
+        "Release Engineering"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "CompTIA Security+",
+      "imageUrl": "https://www.comptia.org/_next/image/?url=https%3A%2F%2Fimages.cmp.optimizely.com%2F8623b0fab71111efac96d615e91762a5%3Fwidth%3D300%26height%3D300&w=384&q=90"
+    },
+    {
+      "name": "AWS Certified Developer - Associate",
+      "imageUrl": "https://images.credly.com/images/e5c85d7f-4e50-431e-b5af-fa9d9b0596e7/image.png"
+    }
+  ],
+  "projects": [
+    {
+      "title": "CyberSmart Active Protect",
+      "description": "Led the original development of CyberSmart Active Protect and later co-led its V5 rebuild, using deep system knowledge to guide the modernization of both the application and its supporting infrastructure. Acted as a primary engineering owner across implementation, production support, and platform hardening, contributing most of the codebase while advancing reliability, performance, and internal tooling. Helped shape ongoing development by turning operational issues and support-driven insights into concrete technical criteria, engineering tickets, and quality-focused roadmap priorities.",
+      "tags": [
+        "Electron.js",
+        "Node.js",
+        "TypeScript",
+        "React",
+        "C#",
+        "MSI Packaging",
+        "NSIS Packaging",
+        "PKG Packaging",
+        "Win32 API",
+        "Swift",
+        "N-API/C++"
+      ],
+      "company": "CyberSmart Ltd",
+      "industry": "Compliance management",
+      "videoLink": "https://demo.arcade.software/snlmcaaKmrukXyVO3jC1?embed&embed_mobile=tab&embed_desktop=inline&show_copy_link=true"
+    },
+    {
+      "title": "PolyEnv",
+      "description": "A web and desktop application that lets users create environment containers on one host and mirror them on another platform. Captures applications, app data, environment variables, desktop settings, and personal files. The web app and desktop agent communicate in real time via AWS WebSockets + connection pool, giving users live visibility into device status and snapshot state across machines. All data is encrypted in transit and at rest.",
+      "tags": [
+        "AWS CDK",
+        ".NET Core 9",
+        "MAUI",
+        "NSIS",
+        "TypeScript",
+        "Cloudflare R2",
+        "DynamoDB",
+        "AWS Bedrock",
+        "S3",
+        "SQS/SNS",
+        "Step Functions",
+        "Cognito",
+        "WebSockets"
+      ],
+      "company": "Echopeak Labs",
+      "industry": "Cloud storage",
+      "link": "https://polyenv.ca"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "echopeak-labs",
+      "role": "Cloud Engineer",
+      "company": "Echopeak Labs",
+      "companyUrl": "https://echopeaklabs.com",
+      "employmentType": "founder",
+      "status": "current",
+      "workMode": "remote",
+      "location": "Ontario, Canada",
+      "startDate": "Sep 2025",
+      "summary": "Founded a consulting agency focused on AWS cloud infrastructure, security-first development, and AI integration — helping organizations scale from MVP to enterprise.",
+      "highlights": [
+        "Architected and automated contract lifecycle workflows to streamline execution, governance, and client onboarding.",
+        "Built an internal operations platform with a bespoke CMS and real-time dashboards for administrative visibility.",
+        "Implemented Stripe-based invoicing and payment orchestration to support global billing and financial workflows."
+      ],
+      "achievements": [
+        "Architected a centralized Legal Operations Framework to automate contract lifecycle management, streamlining bilateral execution and ensuring regulatory compliance between agency stakeholders and clientele.",
+        "Engineered a high-concurrency Internal Administrative Ecosystem, integrating a bespoke CMS with real-time data visualization dashboards to optimize operational transparency.",
+        "Implemented a robust Financial Middleware Layer utilizing Stripe's API to automate global invoicing, ledger reconciliation, and asynchronous payment processing.",
+        "Developed a real-time CI/CD Telemetry Integration for GitHub, synthesizing repository metadata into a dynamic, state-driven Kanban interface for project visibility.",
+        "Designed an end-to-end Conflict Resolution Architecture, mapping complex state-machine user flows to facilitate automated dispute mitigation and transaction recovery."
+      ],
+      "stack": [
+        { "label": "AWS CDK", "category": "cloud" },
+        { "label": "SMS pinpoint", "category": "cloud" },
+        { "label": "TypeScript", "category": "language" },
+        { "label": "Stripe API", "category": "platform" },
+        { "label": "React", "category": "framework" },
+        { "label": "DynamoDB", "category": "database" },
+        { "label": "CloudFormation", "category": "cloud" },
+        { "label": "Cognito", "category": "cloud" },
+        { "label": "Step Functions", "category": "cloud" },
+        { "label": "SES", "category": "cloud" },
+        { "label": "Oauth2", "category": "cloud" },
+        { "label": "OIDC", "category": "cloud" },
+        { "label": "MFA/2FA", "category": "cloud" },
+        { "label": "SSM", "category": "cloud" },
+        { "label": "SQS/SNS", "category": "cloud" },
+        { "label": "S3", "category": "cloud" },
+        { "label": "DynamoDB", "category": "database" },
+        { "label": "CloudFront", "category": "cloud" },
+        { "label": "CloudWatch", "category": "cloud" },
+        { "label": "Calendly", "category": "cloud" },
+        { "label": "docusign", "category": "cloud" },
+        { "label": "Github App Integration", "category": "cloud" },
+        { "label": "Cloudflare API", "category": "cloud" }
+      ],
+      "links": [
+        {
+          "kind": "company",
+          "label": "Echopeak Labs",
+          "href": "https://echopeaklabs.com"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "cybersmart",
+      "role": "Senior Software Engineer",
+      "company": "CyberSmart Ltd",
+      "companyUrl": "https://cybersmart.co.uk",
+      "employmentType": "contract",
+      "status": "past",
+      "workMode": "remote",
+      "location": "London, UK",
+      "startDate": "2017",
+      "endDate": "2025",
+      "summary": "Served as a primary engineer on the ground-up rebuild of CyberSmart Active Protect, implementing a substantial share of the desktop agent and supporting backend services for a compliance platform operating at 100K+ endpoint scale.",
+      "highlights": [
+        "Designed and implemented a native bridge between Node.js/Electron and privileged C# services via C++ N-API to safely execute elevated system operations.",
+        "Implemented a self-update and configuration orchestration subsystem for silent upgrades, centralized policy application, and ongoing fleet consistency.",
+        "Developed secure remote management and remediation capabilities over HTTPS using signed commands validated for integrity before execution."
+      ],
+      "achievements": [
+        "Engineered a secure C++ N-API bridge between Electron/Node.js and privileged C# services, enabling reliable execution of elevated system operations within the desktop platform.",
+        "Developed backend services for dynamic generation of tenant-specific installer packages to support customized deployment workflows at scale.",
+        "Shipped cross-platform online installers for Windows and macOS, improving deployment UX while enforcing hardened install and uninstall flows.",
+        "Architected a policy-driven update and remediation framework that handled silent upgrades, centralized configuration enforcement, and certificate-validated remote command execution over HTTPS."
+      ],
+      "stack": [
+        { "label": "Electron.js", "category": "framework" },
+        { "label": "TypeScript", "category": "language" },
+        { "label": "C#", "category": "language" },
+        { "label": "Node.js", "category": "platform" },
+        { "label": "React", "category": "framework" },
+        { "label": "Swift", "category": "language" },
+        { "label": "N-API/C++", "category": "language" },
+        { "label": "AWS S3", "category": "cloud" },
+        { "label": "AWS ECS", "category": "cloud" }
+      ],
+      "links": [
+        {
+          "kind": "company",
+          "label": "CyberSmart",
+          "href": "https://cybersmart.co.uk"
+        }
+      ],
+      "featured": true
+    }
+  ],
+  "contact": {
+    "heading": "Let's Work Together",
+    "description": "I'm always interested in hearing about new projects and opportunities.",
+    "location": "Ontario, Canada"
+  },
+  "about": {
+    "profile": {
+      "name": "Michael Wheeler",
+      "title": "Cloud, Security & AI Engineer",
+      "avatar": "profile-img.png",
+      "resumeLink": "https://drive.google.com/file/d/1dVL-doykS15chu5hk4HY4mNi6ZZrUBRI/view?usp=sharing",
+      "socialLinks": {
+        "github": "https://github.com/Echo-Peak",
+        "linkedin": "https://www.linkedin.com/in/michael-wheeler-6722b112b/"
+      }
+    },
+    "agency": "https://echopeaklabs.com",
+    "originStory": [
+      "I started my career in software development building websites and front-end applications, gradually expanding from early jQuery-based projects into freelance consulting and full product engineering. Those early years gave me a strong foundation in shipping practical solutions, working directly with clients, and turning business requirements into production software.",
+      "That foundation led to a defining role at CyberSmart, a UK startup in its earliest phase, where I helped build the original MVP for what became CyberSmart Active Protect. Starting in 2017, I played a central role in developing the desktop application from the ground up and helping it mature into a compliance-focused product used to support SMBs pursuing Cyber Essentials and Cyber Essentials Plus alignment. As the platform evolved, it contributed to a product ecosystem that attracted organizations and partners such as Brigantia, London Ambulance Service, and Starling Bank.",
+      "Today, I am the founder of Echopeak Labs, a consultancy focused on AWS cloud infrastructure, FinOps, and security/compliance-oriented engineering. My work centers on building systems that are not only scalable and cost-efficient, but also secure, operationally sound, and aligned with real-world compliance requirements."
+    ]
+  }
+}
